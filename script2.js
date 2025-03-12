@@ -45,6 +45,12 @@ const personagem = new personagem(100, canvas.height - 230, 150, 150)
 const x = new Entidade (10, 20, 30, 50)
 console.log(x.gravidade)
 
+saltar = function (){
+    personagem.#velocidadey = 15
+    personagem.#pulando = true 
+    console.log('saltou')
+}
+
 document.addEventListener('keypress', (e) => {
     if (e.code === 'Space' && !personagem.pulando) {
         personagem.velocidadey = 15;
