@@ -1,6 +1,6 @@
 const canvas = document.getElementById('jogo2d');
 const ctx = canvas.getContext('2d');
-const gravidade = 0.2;
+const gravidade = 0.3;
 const chaoY = canvas.height - 80;
 let gameOver = false;
 let pontuacao = 0; // Variável para armazenar a pontuação
