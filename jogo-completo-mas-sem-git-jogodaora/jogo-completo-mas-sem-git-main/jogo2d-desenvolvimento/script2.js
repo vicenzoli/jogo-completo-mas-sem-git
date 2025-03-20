@@ -131,7 +131,7 @@ class Obstaculo extends Entidade {
         this.x -= this.velocidadeX;
         if (this.x <= 0 - this.largura) {
             this.x = canvas.width;
-            this.velocidadeX += 0.6;
+            this.velocidadeX += 0.5;
             this.altura = (Math.random() * 50) + 100;
             this.y = chaoY - this.altura;
 
